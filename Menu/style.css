@@ -6,7 +6,8 @@ body{
     background-image: url("i/background2.jpg");
     background-repeat: repeat;
     background-color: #5E3A6D;
-    background-attachment: fixed;   
+    background-attachment: fixed; 
+    background-size: 100%;  
 }
 
 .Nazva{
