@@ -1,0 +1,973 @@
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("i/background2.jpg");
+    background-repeat: repeat;
+    background-color: #5E3A6D;
+    background-attachment: fixed;   
+}
+
+.Nazva{
+    width: 50%;
+    height: 100px;
+    border: 1px solid #C8CAC8;
+    border-radius: 5px;
+    background-color: rgba(239, 239, 239, 0.5);
+    background-size: cover;
+    margin: auto;
+    text-align: center;
+}
+
+.N{
+    font-size: 22pt;
+    color: #282828;
+}
+
+
+.main{
+    position: relative;
+    margin: auto;
+    margin-top: 3%;
+    width: 85%;
+    height: 2000px;
+    border-right: 1px solid #C8CAC8;
+    border-left: 1px solid #C8CAC8;
+    border-bottom: 1px solid #C8CAC8;
+    border-radius: 5px;
+    background-color: rgba(239, 239, 239, 0.5);
+    box-shadow:  0 0 5px;
+    padding-bottom: 10%;
+}
+
+/*----------------------Вкладки(start)-------------------------------------------*/
+
+.tabs { width: 100%; padding: 0px; margin: 0 auto; }
+.tabs>input { display:none; }
+.tabs>div {
+    display: none;
+}
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    width: 80px;
+    text-align: center;
+    color: #474747;
+    border-right: 1px solid #C0C0C0;
+    border-left: 1px solid #C0C0C0;
+    background: #E0E0E0;
+    cursor: pointer;
+    font-size: 13.5pt;
+}
+.tabs>label:hover{
+    background-color: rgba(249, 249, 249, 0.9);
+}
+.tabs>input:checked + label {
+    background-color: rgba(249, 249, 249, 0.5);
+}
+#tab_1:checked ~ #txt_1,
+#tab_2:checked ~ #txt_2,
+#tab_3:checked ~ #txt_3,
+#tab_4:checked ~ #txt_4 { display: block; }
+
+
+/*----------------------Вкладки(end)-------------------------------------------*/
+
+
+/*----------------------Беляш1(start)-------------------------------------------*/
+
+
+.Belyash{
+    position: absolute;
+    margin: auto;
+    margin-left: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageBelyash{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Беляш.jpg);
+    background-size: cover;
+    width: 93%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Belyash:hover{
+    height: auto;
+
+}
+
+.BelyashContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial;
+}
+
+.Cat{
+    position: relative;
+    background: url(i/Кот.jpg) no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    width: 93%;
+    height: 125px;
+    margin: auto;
+}
+/*----------------------Беляш1(end)-------------------------------------------*/
+
+
+
+/*----------------------Беляш2(start)-------------------------------------------*/
+.Belyash2{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageBelyash2{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Беляш2.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Belyash2:hover{
+    height: auto;
+
+}
+
+.BelyashContent2{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+.Cat2{
+    position: relative;
+    margin: auto;
+    background: url(i/u.jpg) no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    width: 93%;
+    height: 110px;
+}
+/*----------------------Беляш2(end)-------------------------------------------*/
+
+
+/*----------------------Сосидж(start)-------------------------------------------*/
+
+.Sausage{
+    position: absolute;
+    margin: auto;
+    margin-left: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 415px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageSausage{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Sos.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 330px;
+    margin-top: 5%;
+}
+
+
+.Sausage:hover{
+    height: auto;
+
+}
+
+.SausageContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Сосидж(end)-------------------------------------------*/
+
+/*----------------------Пицца(start)-------------------------------------------*/
+.Pizza{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 415px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImagePizza{
+    position: relative;
+    margin: auto;
+    background-image: url(i/pizza.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 330px;
+    margin-top: 5%;
+}
+
+
+.Pizza:hover{
+    height: auto;
+
+}
+
+.PizzaContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+/*----------------------Пицца(end)-------------------------------------------*/
+
+
+
+/*----------------------Картошка по селянськы(start)-------------------------------------------*/
+.Price{
+    font-size: 15pt;
+    text-align: right;
+    margin: auto;
+    margin-right: 20px;
+    font-family: arial;    
+}
+
+
+
+.Potatoes{
+    position: absolute;
+    margin: auto;
+    margin-left: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImagePotatoes{
+    position: relative;
+    margin: auto;
+    background-image: url(i/КартошкаПоСелянськы.jpg);
+    background-size: cover;
+    width: 93%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Potatoes:hover{
+    height: auto;
+
+}
+
+.PotatoesContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial;
+}
+
+/*----------------------Картошка по селянськы(end)-------------------------------------------*/
+
+
+
+/*----------------------Стейк(start)-------------------------------------------*/
+
+.Stake{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageStake{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Стейк2.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Stake:hover{
+    height: auto;
+
+}
+
+.StakeContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+/*----------------------Стейк(end)-------------------------------------------*/
+
+
+
+/*----------------------Колбасаааа(start)-------------------------------------------*/
+
+.Kolbasa{
+    position: absolute;
+    margin: auto;
+    margin-left: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 415px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageKolbasa{
+    position: relative;
+    margin: auto;
+    background-image: url(i/КолбасаДомашняя.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 330px;
+    margin-top: 5%;
+}
+
+
+.Kolbasa:hover{
+    height: auto;
+
+}
+
+.KolbasaContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+/*----------------------Колбасаааа(end)-------------------------------------------*/
+
+
+/*----------------------Шашлык(start)-------------------------------------------*/
+
+.Shashluk{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 415px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageShashluk{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Шашл2.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 330px;
+    margin-top: 5%;
+}
+
+
+.Shashluk:hover{
+    height: auto;
+
+}
+
+.ShashlukContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+/*----------------------Шашлык(end)-------------------------------------------*/
+
+
+/*----------------------Пловчик(start)-------------------------------------------*/
+
+.Plovchik{
+    position: absolute;
+    margin: auto;
+    left: 7%;
+    margin-top: 115%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImagePlovchik{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Пловчик.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Plovchik:hover{
+    height: auto;
+
+}
+
+.PlovchikContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+/*----------------------Пловчик(end)-------------------------------------------*/
+
+
+/*----------------------Пюрешка(start)-------------------------------------------*/
+.Pur{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 115%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImagePur{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Пюрешка.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Pur:hover{
+    height: auto;
+
+}
+
+.PurContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Пюрешка(end)-------------------------------------------*/
+
+/*----------------------Еж(start)-------------------------------------------*/
+
+
+.Ege{
+    position: absolute;
+    margin: auto;
+    margin-left: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageEge{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Еж.jpg);
+    background-size: cover;
+    width: 93%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Ege:hover{
+    height: auto;
+
+}
+
+.EgeContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: arial;
+}
+
+/*----------------------Еж(end)-------------------------------------------*/
+
+
+/*----------------------Пикин(start)-------------------------------------------*/
+.Pikin{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImagePikin{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Pikin.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Pikin:hover{
+    height: auto;
+
+}
+
+.PikinContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Пикин(end)-------------------------------------------*/
+
+
+/*----------------------Цезарь(start)-------------------------------------------*/
+.Czezar{
+    position: absolute;
+    margin: auto;
+    left: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageCzezar{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Цезарь.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Czezar:hover{
+    height: auto;
+
+}
+
+.CzezarContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Цезарь(end)-------------------------------------------*/
+
+
+/*----------------------Копченый салат(start)-------------------------------------------*/
+.Kop{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageKop{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Коп.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Kop:hover{
+    height: auto;
+
+}
+
+.KopContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Копченый салат(end)-------------------------------------------*/
+
+
+/*----------------------Оливье(start)-------------------------------------------*/
+.Ol{
+    position: absolute;
+    margin: auto;
+    left: 7%;
+    margin-top: 115%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageOl{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Ol.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Ol:hover{
+    height: auto;
+
+}
+
+.OlContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Оливье(end)-------------------------------------------*/
+
+
+/*----------------------Подсолнух(start)-------------------------------------------*/
+.Pod{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 115%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImagePod{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Под.jpg);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Pod:hover{
+    height: auto;
+
+}
+
+.PodContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Подсолнух(end)-------------------------------------------*/
+
+
+/*----------------------Кола(start)-------------------------------------------*/
+.Cocacola{
+    position: absolute;
+    margin: auto;
+    left: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageCocacola{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Cocacola.png);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Cocacola:hover{
+    height: auto;
+
+}
+
+/*.CocacolaContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+*/
+
+/*----------------------Кола(end)-------------------------------------------*/
+
+
+/*----------------------Спрайт(start)-------------------------------------------*/
+
+
+.Sprite{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 15%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageSprite{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Sprite.png);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Sprite:hover{
+    height: auto;
+
+}
+
+
+/*----------------------Спрайт(end)-------------------------------------------*/
+
+
+/*----------------------Фанта(end)-------------------------------------------*/
+
+.Fanta{
+    position: absolute;
+    margin: auto;
+    left: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageFanta{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Fanta.png);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Fanta:hover{
+    height: auto;
+
+}
+
+
+/*----------------------Фанта(end)-------------------------------------------*/
+
+/*----------------------Кола(start)-------------------------------------------*/
+
+.Sok{
+    position: absolute;
+    margin: auto;
+    right: 7%;
+    margin-top: 65%;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    width: 35%;
+    height: 400px;
+    background-color: rgba(249, 249, 249, 0.8);
+    box-shadow:  0 0 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.ImageSok{
+    position: relative;
+    margin: auto;
+    background-image: url(i/Sok.png);
+    background-size: cover;
+    width: 92%;
+    height: 315px;
+    margin-top: 5%;
+}
+
+
+.Sok:hover{
+    height: auto;
+
+}
+
+.SokContent{
+    font-size: 14pt;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: arial;
+}
+
+
+/*----------------------Спрайт(end)-------------------------------------------*/
