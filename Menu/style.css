@@ -100,7 +100,9 @@ body{
     background-image: url(i/Беляш.jpg);
     background-size: cover;
     width: 93%;
-    height: 315px;
+    height: 315px; /*315px*/
+    max-width: 100%;
+   
     margin-top: 5%;
 }
 
