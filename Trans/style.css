@@ -20,8 +20,8 @@
     background-image: url(https://cdn-learn.adafruit.com/assets/assets/000/012/878/thumb100/led_strips_doge.bmp?1386611464);
     background-size: 100%;
     color: white;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     transform: rotate(360deg);
     border: 1px solid black;
     border-radius: 100%;
