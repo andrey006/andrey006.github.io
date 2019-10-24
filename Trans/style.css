@@ -1,19 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .box1{
     margin-top: -30%;
-    width: 1366px;
-    height: 720px;
+    margin: auto;
+    width: 560px;
+    height: 355px;
 }
 
 .box {
     border-style: 1px solid;
     display: block;
-    width: 21.9619327%;
-    height: 41.6666667%;
+    width: 53.5714286%;
+    height: 84.5070423%;
     background-color: black;
     transition: all 1.5s;
     border: 1px solid grey;
     margin: auto;
-    margin-top: 40%;
+    margin-top: 30%;
     
 }
 
@@ -22,8 +28,8 @@
     background-image: url(https://cdn-learn.adafruit.com/assets/assets/000/012/878/thumb100/led_strips_doge.bmp?1386611464);
     background-size: 100%;
     color: white;
-    width: 10.9809663%;
-    height: 20.8333333%;
+    width: 26.7857143%;
+    height: 42.2535211%;
     transform: rotate(360deg);
     border: 1px solid black;
     border-radius: 100%;
