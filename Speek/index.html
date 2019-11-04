@@ -3,12 +3,27 @@
 <head>
   <meta charset="utf-8">
   <title>Распознавание голоса и чтение текста</title>
+  <style type="text/css">
+    .ImgSpeek{
+      width: 400px;
+      height: 400px;
+      margin: 0 auto;
+      margin-top: 10%;
+    }
+    .ImgSpeekIn{
+      min-width: 100%;
+      min-height: 100%;
+      background-size: cover;
+    }
+  </style>
 </head>
 <body>
 
-  <button onclick="speech ()">Слушать</button>
+  <!-- <button onclick="speech ()">Слушать</button> -->
   <button onclick="talk ()">Проговорить</button>
   <button onclick="stop ()">Остановить</button>
+
+  <div onclick="speech ()" class="ImgSpeek" > <img src="talk.png" class="ImgSpeekIn"></div>
 
   <script>
   // Создаем распознаватель
@@ -25,10 +40,23 @@
     var result = event.results[event.resultIndex];
     if (result.isFinal) {
       alert('Вы сказали: ' + result[0].transcript);
-    } else {
+      var res = result[0].transcript;
+      if (res == "меню"){
+        document.location.href = "https://andrey006.github.io/Menu/";
+      }
+      else if(res == "аниме"){
+        document.location.href = "https://narutoplanet.ru/";
+      }
+      else if(res == "Пошёл н****"){
+        document.write("Сама Пошла!!! Делал эту прогу, старался, а меня тут На хцй посылвлыовсвотшвоы");
+      }
+    } 
+    else {
       console.log('Промежуточный результат: ', result[0].transcript);
     }
   };
+
+
 
   function speech () {
     // Начинаем слушать микрофон и распознавать голос
