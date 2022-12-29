@@ -20,7 +20,7 @@ h1, h2, h3, h4{
 }
 
 
-/*Голова*/
+/*Центральная надпись на главном екране*/
 
 .container{
     width: 100%;
@@ -56,6 +56,7 @@ h1, h2, h3, h4{
 
 }
 
+/*Голова*/
 .header{
     padding-top: 30px;
     width: 100%;
@@ -259,6 +260,8 @@ h1, h2, h3, h4{
     font-weight: 600;
 }
 
+
+/*Команда мечты*/
 .Comand{
     background-color: whitesmoke;
     width: 100%;
@@ -336,6 +339,7 @@ h1, h2, h3, h4{
     font-size: 17pt;
 }
 
+/*Футер*/
 .footer{
     margin: 0 auto;
     width: 100%;
